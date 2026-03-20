@@ -8,21 +8,17 @@ Svara på var och en av frågorna nedan individuellt (minst 100 tecken per fråg
 
 #### Vad var ditt mål med projektet initialt?
 
-Dels att få erfarenhet av att anamma ett agilt arbetssätt, och dels lära mig gitflow, och github projects. Var sjuk så jag missade de flesta genomgångarna, men fick bra hjälp av de andra i gruppen för att förstå arbetssättet. 
-
+Dels att få erfarenhet av att anamma ett agilt arbetssätt, och dels lära mig gitflow, och github projects. Var sjuk så jag missade de flesta genomgångarna, men fick bra hjälp av de andra i gruppen för att förstå arbetssättet.
 
 #### Hur kände du inför att arbeta i ett riktigt projekt med ett riktigt team?
 
 Kände att det skulle bli intressant och lite utmanande. Hur lägger man upp ett webbprojekt så det fungerar genom hela projektet liksom? När alla ska göra olika delar osv.
-
-
 
 ### Planering och genomförande
 
 #### Hur tycker du att planeringen inför projektet fungerade?
 
 Tycker att det fungerade helt ok. Inte helt lätt att tänka rätt inför att dra igång ett sånt här projekt när man är orutinerad. Det är lite svårt att tänka hela vägen liksom. Vad behöver vi tänka på när det gäller vilka delar vi kan återanvända på fler ställen osv. Vi ansåg att vi inte behövde göra tasks t ex, och det kan jag i efterhand känna att man kanske skulle gjort. För om man bryter ner varje del så kanske det är lättare att se att den här funktionen kan användas på fler ställen osv. Men som sagt, det kommer väl ju mer man jobbar i projekt.
-
 
 #### Vad har du bidragit med i planeringen, samt utvecklandet av applikationen.
 
@@ -60,27 +56,24 @@ Ja, kanske tänka igenom allt mer från början. Men det skulle å andra sidan t
 
 Ser helt klart att det kommer att komma till användning i yrkeslivet! Gissar att de flesta företag jobbar efter den här modellen när det kommer till webb.
 
-
-
 ### VG-frågor (minst 200 tecken)
 
 #### Beskriv minst tre fördelar med att arbeta agilt och motivera varför de är viktiga. Använd exempel från ert projekt för att styrka dina argument.
 
 Det ger en bra och väldigt viktig översikt över projektet. Korta sprintar med daily scrums motverkar också att nån sitter på egen kant och antingen inte gör tillräckligt eller gör för mycket eller jobbar med samma som någon annan. Man får också en översikt över hur lång tid projektet kommer ta med time estimate, något som är viktigt för PO och kunden t ex. I vårt projekt så gjorde vi user stories både utifrån de vi fick av dig men lade även till egna. Det gjorde att vi inte glömde bort något utan allt fanns där svart på vitt. Sen hann vi inte med allt, men det är ju en annan femma.
 
-
 #### Beskriv en konkret lösning du föreslagit. Varför ansåg du att den var bäst? Jämför med minst en annan möjlig lösning och förklara varför ni inte valde den.
 
-(insert answer here...)
+Hade väl inte driekt någon konkret lösning som jag föreslog. Jag föreslog en kategorisida i steget innan man kom till själva menyn, men den var mest lull-lull som gjorde att det såg lite läckrare ut. En annan lösning vore ju att komma direkt till menyn, men det blev ju lite plattare och inte så snyggt. Men estetiskt tilltalande är ändå en viktig aspekt!
 
 #### Ge minst två exempel på lösningar ni valde bort. Analysera varför ni avstod från dem. Hur påverkade det projektet? Kunde något ha gjorts annorlunda?
 
-(insert answer here...)
+Kan väl inte påstå att vi valt bort något på det sättet som frågan kanske antyder. Vi valde bort möjligheten att redigera sin profil, lägga till profilbild mm. Men det mest pga tidsbrist. Vi lade mer fokus på beställningskedjan fram till att användare kunde se sina tidigare ordrar till exempel. Även att admin kunde se orderhistorik fokuserade vi på. Valde också bort att kunna klicka på en kategori på lull-lull-sidan och komma till rätt "flik" av menyn (dryck, dip osv). Men det också pga tidsbrist.
 
 #### Reflektera kring hur den kod du bidragit med skulle kunna förbättras, ge konkreta exempel.
 
-(insert answer here...)
+Jag gjorde klart registrera konto och logga in ganska snabbt. Men upptäckte någon dag senare att jag vid inlogg bara kollade ifall användaren fanns - inte vilket lösenord som skrevs 😅. Ganska lätthackat! Så det var bara att justera. Så det kan tänkas att det finns fler brister. Försökte undvika att luta mig mot ai, men det hade nog varit ganska bra att verifiera koden. Har också svårt att avgöra hur man gör kode skalbar fullt ut. Vad kan ligga som separata funktioner och återanvändas på fler ställen? Skulle det också göra det enklare för t ex Alexander att använda sig av min kod för att göra admin-koll osv? Gissningsvis ja. Men inte helt lätt att tänka rätt inte.
 
 #### Om ni hade en vecka till på er, vad skulle du ändrat? Fokusera på arbetsprocessen, samarbetet eller verktygen ni använde. Hur skulle det ha påverkat resultatet?
 
-(insert answer here...)
+Kan väl känna, som jag skrev tidigare, att vi skulle ha lagt mer tid på planering - tänka igenom strukturen mer - vad kan återanvändas - och var? Göra mer tasks. Det skulle ha påverkat resultatet så till vida att vi antagligen hade enklare kunnat få till admin , profilsidan - att redigera användaruppgifter och profilbild, även att kategorisidan skulle komma till rätt meny direkt t ex. Det är svårt att backa och i efterhand korrigera kod har man ju insett. Men vi var alla så peppade på att dra igång och lösa uppgifterna vi hade framför oss och få ihop till en fungerande app, så jag tror vi nedprioriterade planeringen lite pga det. Men vi gjorde åtminstone en planering och lade upp user stories helt enligt rekommenderat tillvägagångssätt vill jag ändå säga. Och samarbetet fungerade väldigt bra i gruppen.
